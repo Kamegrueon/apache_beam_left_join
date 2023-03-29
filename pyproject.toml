@@ -2,9 +2,7 @@
 name = "beam"
 version = "0.1.0"
 description = ""
-authors = ["AnagumaReonKK <niwaniwaniwaniwatori.gairuze@gmail.com>"]
-readme = "README.md"
-packages = [{include = "python_demo"}]
+authors = ["Kamegrueon <niwaniwaniwaniwatori.gairuze@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"

@@ -51,7 +51,8 @@ def run(options: PipelineOptions):
     left_pcoll = p | "Create Left PCollection" >> beam.Create([
         {'join_key': 1, 'left_value_1': 'a', 'left_value_2': 'b'},
         {'join_key': 2, 'left_value_1': 'c', 'left_value_2': 'd'},
-        {'join_key': 3, 'left_value_1': 'e', 'left_value_2': 'f'}
+        {'join_key': 2, 'left_value_1': 'e', 'left_value_2': 'f'},
+        {'join_key': 3, 'left_value_1': 'g', 'left_value_2': 'h'}
     ])
     
     # 右側のテーブルを作成する
